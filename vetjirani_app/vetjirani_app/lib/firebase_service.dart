@@ -13,9 +13,9 @@ class FirebaseService {
   final GoogleSignIn _googleSignIn = GoogleSignIn();
 
   // Add the missing verifyVetMedicalId method
-  Future<bool> verifyVetMedicalId(String medicalId) async {
+  static Future<bool> verifyVetMedicalId(String medicalId) async {
     try {
-      final HttpsCallable callable = functions.httpsCallable('verifyVetMedicalId');
+      final HttpsCallable callable = FirebaseFunctions.instance.httpsCallable('verifyVetMedicalId');
       final response = await callable.call(<String, dynamic>{
         'medicalId': medicalId,
       });
@@ -29,7 +29,8 @@ class FirebaseService {
   // Sign in with Google
   static Future<User?> signInWithGoogle() async {
     try {
-      final GoogleSignInAccount? googleUser = await GoogleSignIn().signIn();
+      final GoogleSignIn googleSignIn = GoogleSignIn();
+      final GoogleSignInAccount? googleUser = await googleSignIn.signIn();
       if (googleUser == null) {
         return null; // User cancelled the sign-in
       }
