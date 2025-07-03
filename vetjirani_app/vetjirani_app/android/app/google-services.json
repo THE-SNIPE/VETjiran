@@ -1,0 +1,90 @@
+{
+  "project_info": {
+    "project_number": "208641194395",
+    "project_id": "vetjirani-3da7c",
+    "storage_bucket": "vetjirani-3da7c.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:208641194395:android:7d1b7cb6780d52e03ec93e",
+        "android_client_info": {
+          "package_name": "com.example.vetjirani_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "208641194395-3iu76kmmv121bb6sco2f66sc1hnde8h8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCm5w-NmdXU2t_k_BdEDUsOWw3KGGOQg3I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "208641194395-3iu76kmmv121bb6sco2f66sc1hnde8h8.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "208641194395-5sq7p2bitpkhhc46o9v68i2fkg4o6283.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.vetjirani.app"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:208641194395:android:9a4ac50a760012263ec93e",
+        "android_client_info": {
+          "package_name": "com.vetjirani.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "208641194395-h3n3pfpvtbejjtvd2tntt1lk7odjkp06.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.vetjirani.app",
+            "certificate_hash": "b604646a8e7ddd1f0477e0ca8800d56273f7c3d2"
+          }
+        },
+        {
+          "client_id": "208641194395-3iu76kmmv121bb6sco2f66sc1hnde8h8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCm5w-NmdXU2t_k_BdEDUsOWw3KGGOQg3I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "208641194395-3iu76kmmv121bb6sco2f66sc1hnde8h8.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "208641194395-5sq7p2bitpkhhc46o9v68i2fkg4o6283.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.vetjirani.app"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
